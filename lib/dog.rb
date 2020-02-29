@@ -21,7 +21,8 @@ class Dog
   
   def save
     sql = <<-SQL
-    
+    (INSERT INTO dogs (name, breed) VALUES (?, ?) ,name, breed)
     SQL
+    
   end
 end
