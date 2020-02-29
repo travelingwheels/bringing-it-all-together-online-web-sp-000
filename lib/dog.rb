@@ -20,6 +20,7 @@ class Dog
   end
   
   def save
+    
    ##(INSERT INTO dogs (name, breed) VALUES (?, ?) ,name, breed)
     
   end
